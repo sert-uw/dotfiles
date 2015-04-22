@@ -1,0 +1,5 @@
+keycode 97 = Shift_R
+add shift = Shift_L Shift_R
+
+keycode 102 = F2
+keycode 132 = BackSpace
