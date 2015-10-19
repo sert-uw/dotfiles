@@ -11,6 +11,11 @@ export PATH=$HOME/android-sdk/platform-tools:${PATH}
 export PATH=$HOME/android-sdk/tools:$PATH
 export ANDROID_HOME=$HOME/android-sdk
 
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
 #####
 
 HISTSIZE=100
