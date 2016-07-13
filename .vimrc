@@ -9,6 +9,8 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " call neobundle#end()
 
 NeoBundle 'Shougo/neocomplete'
+NeoBundle 'Shougo/neosnippet'
+source ~/.vimrc-neosnippet
 
 """" neocomplete
 " ref. https://github.com/Shougo/neocomplete.vim
@@ -97,10 +99,7 @@ endif
 let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 """" neocomplete end
 
-NeoBundle 'scrooloose/syntastic'
-let g:syntastic_mode_map = { 'mode': 'passive',
-            \ 'active_filetypes': ['ruby'] }
-let g:syntastic_ruby_checkers = ['rubocop']
+NeoBundle 'tpope/vim-rails'
 
 call neobundle#end()
 
